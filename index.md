@@ -1,3 +1,7 @@
+---
+title: Welcome to http2benchmark.org
+---
+
 ## Welcome to http2benchmark.org
 
 You can found the truth about HTTP/2 performance.
