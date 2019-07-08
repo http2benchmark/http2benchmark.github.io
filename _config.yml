@@ -4,7 +4,7 @@ head_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js
 
 #google tag manager 
-google-tag-manager:
+google-tag-manager: GTM-PBK7NCL
 
 # Disqus Comments
 disqus:
