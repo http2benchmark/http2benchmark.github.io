@@ -2,3 +2,8 @@ title: http2benchmark.org
 theme: jekyll-theme-cayman
 head_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: http2benchmark 
