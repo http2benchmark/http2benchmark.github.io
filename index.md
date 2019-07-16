@@ -16,7 +16,7 @@ We provide an easy-to-use script so that you may set up and run the benchmarks y
 
 ### How can you contribute
 
-The [HTTP2Benchmark](https://github.com/http2benchmark/http2benchmark) project is an open-source project hosted on GitHub. 
+The [http2benchmark](https://github.com/http2benchmark/http2benchmark) project is an open-source project hosted on GitHub. 
 
 Contributions are welcome, including:
 
