@@ -59,7 +59,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 *   WordPress with cache plugin: 
     *   LSCache for LiteSpeed
-    *   WP Super Cache for Apache
+    *   W3 Total Cache for Apache
     *   FastCGI Cache for Nginx
 
 ## Results
