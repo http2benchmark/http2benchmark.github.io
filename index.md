@@ -33,6 +33,8 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ## Benchmark Setup
 
+[You can easily run http2benchmark on your own server by following this guide.](https://http2benchmark.org/guide.html)
+
 ### Server software compared
 
 *   [Apache 2.4](http://httpd.apache.org/)
@@ -57,9 +59,9 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ### Application benchmark
 
-*   WordPress with cache plugin: 
-    *   LSCache for LiteSpeed
-    *   W3 Total Cache for Apache
+*   [WordPress](https://wordpress.org/) with cache plugin: 
+    *   [LSCache](https://wordpress.org/plugins/litespeed-cache/) for LiteSpeed
+    *   [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) for Apache
     *   FastCGI Cache for Nginx
 
 ## Benchmark Results
@@ -89,6 +91,30 @@ Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 1kstatic.html (req/s) | 41794.80 | 15580.20 | 2.68
 1knogzip.jpg (req/s) | 40326.40 | 21976.70 | 1.83
 wordpress homepage (req/s) | 16414.00 | 3410.70 | 4.81
+
+###   Vultr “High Frequency Compute”
+    * Date: 07/23/2019
+    * Server: 2GB memory, 1-core 3GHz+ CPUs ( 3792MHz )
+    * Client: 2GB memory, 1-core 3GHz+ CPUs ( 3792MHz )
+    * Network Bandwidth: 7.7Gbps
+
+#### LSWS 5.4 vs Nginx 1.16 HTTP/2 
+
+Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/1kstatic.html`
+
+Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
+----------|------------ | -------------|------
+1kstatic.html (req/s) | 212222.00 | 33909.20| 6.26
+1knogzip.jpg (req/s) | 203938.00 | 45258.70| 4.50
+
+#### LSWS 5.4 vs Nginx 1.16 HTTPS 
+
+Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/1kstatic.html`
+
+Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
+----------|------------ | -------------|------
+1kstatic.html (req/s) | 78968.90 | 25513.00 | 3.09
+1knogzip.jpg (req/s) | 66455.80 | 37813.80 | 1.75
 
 ## Feedback
 
