@@ -1,10 +1,14 @@
-# Preparation 
+---
+title: How to run http2benchmark
+---
+
+## Preparation 
   - Two servers, one is Test Server and the other one is Client Server
   - You need to have root ssh access for both servers
   - There should be no firewall blocking ports 22, 80, 443, or 5001
 
-# How to benchmark
-## Server install
+## How to benchmark
+### Server install
 ``` bash
 git clone https://github.com/http2benchmark/http2benchmark.git
 ```
@@ -12,7 +16,7 @@ git clone https://github.com/http2benchmark/http2benchmark.git
 http2benchmark/setup/server/server.sh
 ```
 
-## Client install
+### Client install
 ``` bash
 git clone https://github.com/http2benchmark/http2benchmark.git
 ```
@@ -34,7 +38,7 @@ ssh-rsa .................................................................
 Once complete, click ANY key to continue: 
 ```
 
-## How to test
+### How to test
 Run the following command in client server:
 ``` bash
 /opt/benchmark.sh
