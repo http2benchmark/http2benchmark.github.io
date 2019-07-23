@@ -27,10 +27,10 @@ Syntax highlighted code block
 ```
 ### table example
 
-Test Name | LSWS 5.4    | Nginx 1.16
-----------|------------ | -------------
-1kstatic.html (req/s) | 212222.00 | 33909.20
-1knogzip.jpg (req/s) | 203938.00 | 45258.70
+Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
+----------|------------ | -------------|------
+1kstatic.html (req/s) | 212222.00 | 33909.20| 6.26
+1knogzip.jpg (req/s) | 203938.00 | 45258.70| 4.50
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
