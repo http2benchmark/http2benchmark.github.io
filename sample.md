@@ -27,10 +27,10 @@ Syntax highlighted code block
 ```
 ### table example
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Test Name | LSWS 5.4    | Nginx 1.16
+----------|------------ | -------------
+1kstatic.html (req/s) | 212222.00 | 33909.20
+1knogzip.jpg (req/s) | 203938.00 | 45258.70
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
