@@ -47,8 +47,8 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ### Test clients used
 
-*   H2load for benchmarking HTTP/2
-*   Wrk for benchmarking regular HTTPS in the HTTP/1.1 protocol
+*   [h2load](https://nghttp2.org/documentation/h2load-howto.html) for benchmarking HTTP/2
+*   [wrk](https://github.com/wg/wrk) for benchmarking regular HTTPS in the HTTP/1.1 protocol
 
 ### Micro benchmarks
 
@@ -89,4 +89,6 @@ Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 1kstatic.html (req/s) | 41794.80 | 15580.20 | 2.68
 1knogzip.jpg (req/s) | 40326.40 | 21976.70 | 1.83
 wordpress homepage (req/s) | 16414.00 | 3410.70 | 4.81
+
+## Feedback
 
