@@ -35,19 +35,19 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ### Server software compared
 
-*   Apache 2.4
-*   LiteSpeed Enterprise 5.4
-*   Nginx 1.6
+*   [Apache 2.4](http://httpd.apache.org/)
+*   [LiteSpeed Enterprise 5.4](https://www.litespeedtech.com/products/litespeed-web-server)
+*   [Nginx 1.6](http://nginx.org/)
 
 ### Server software to be added soon
 
-*   Caddy
-*   H2O
-*   OpenLiteSpeed
+*   [Caddy](https://caddyserver.com/)
+*   [H2O](https://h2o.examp1e.net/)
+*   [OpenLiteSpeed](https://openlitespeed.org/)
 
 ### Test clients used
 
-*   H2load for benchmarking HTTP2
+*   H2load for benchmarking HTTP/2
 *   Wrk for benchmarking regular HTTPS in the HTTP/1.1 protocol
 
 ### Micro benchmarks
