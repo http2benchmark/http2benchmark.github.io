@@ -39,7 +39,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 *   [Apache 2.4](http://httpd.apache.org/)
 *   [LiteSpeed Enterprise 5.4](https://www.litespeedtech.com/products/litespeed-web-server)
-*   [Nginx 1.6](http://nginx.org/)
+*   [Nginx 1.16](http://nginx.org/)
 
 ### Server software to be added soon
 
@@ -78,9 +78,9 @@ Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" http
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
-1kstatic.html (req/s) | 156422.00 | 18734.10| 8.35
-1knogzip.jpg (req/s) | 132162.00 | 27898.10| 4.73
-wordpress homepage (req/s) | 36089.90 | 3597.00 | 10.03
+1kstatic.html (req/s) | 156,422.00 | 18,734.10| 8.35
+1knogzip.jpg (req/s) | 132,162.00 | 27,898.10| 4.73
+wordpress homepage (req/s) | 36,089.90 | 3,597.00 | 10.03
 
 #### LSWS 5.4 vs Nginx 1.16 HTTPS 
 
@@ -88,9 +88,9 @@ Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/1ksta
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
-1kstatic.html (req/s) | 41794.80 | 15580.20 | 2.68
-1knogzip.jpg (req/s) | 40326.40 | 21976.70 | 1.83
-wordpress homepage (req/s) | 16414.00 | 3410.70 | 4.81
+1kstatic.html (req/s) | 41,794.80 | 15,580.20 | 2.68
+1knogzip.jpg (req/s) | 40,326.40 | 21,976.70 | 1.83
+wordpress homepage (req/s) | 16,414.00 | 3,410.70 | 4.81
 
 ###   Vultr “High Frequency Compute”
     * Date: 07/23/2019
@@ -104,8 +104,8 @@ Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" http
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
-1kstatic.html (req/s) | 212222.00 | 33909.20| 6.26
-1knogzip.jpg (req/s) | 203938.00 | 45258.70| 4.50
+1kstatic.html (req/s) | 212,222.00 | 33,909.20| 6.26
+1knogzip.jpg (req/s) | 203,938.00 | 45,258.70| 4.50
 
 #### LSWS 5.4 vs Nginx 1.16 HTTPS 
 
@@ -113,8 +113,8 @@ Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/1ksta
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
-1kstatic.html (req/s) | 78968.90 | 25513.00 | 3.09
-1knogzip.jpg (req/s) | 66455.80 | 37813.80 | 1.75
+1kstatic.html (req/s) | 78,968.90 | 25,513.00 | 3.09
+1knogzip.jpg (req/s) | 66,455.80 | 37,813.80 | 1.75
 
 ## Feedback
 
