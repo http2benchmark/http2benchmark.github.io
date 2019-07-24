@@ -35,6 +35,9 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 [You can easily run http2benchmark on your own server by following this guide.](https://http2benchmark.org/guide.html)
 
+    It takes less than an hour of two $5 Digital Ocean droplets to verify the test results.
+    Total cost is less than $0.02. Give it a try. :-) 
+
 ### Server software compared
 
 *   [Apache 2.4](http://httpd.apache.org/)
@@ -69,7 +72,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 ###   Digital Ocean 1GB Droplet
     * Date: 07/23/2019
     * Server: 1GB memory, 1-core Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
-    * Client: 2GB memory , 1-core Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+    * Client: 2GB memory, 1-core Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
     * Network Bandwidth: 1.8Gbps
 
 #### HTTP/2: LSWS 5.4 vs Nginx 1.16  
