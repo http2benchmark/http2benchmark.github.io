@@ -66,7 +66,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ## Benchmark Results
 
-###   Digital Ocean Droplet 1
+###   Digital Ocean 1GB Droplet
     * Date: 07/23/2019
     * Server: 1GB memory, 1-core Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
     * Client: 2GB memory , 1-core Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
@@ -92,7 +92,7 @@ Test Name | LSWS 5.4    | Nginx 1.16 | Ratio (LSWS vs Nginx)
 1knogzip.jpg (req/s) | 40,326.40 | 21,976.70 | 1.83 : 1
 wordpress homepage (req/s) | 16,414.00 | 3,410.70 | 4.81 : 1
 
-###   Vultr “High Frequency Compute”
+###   Vultr “High Frequency Compute” 2-GB instance
     * Date: 07/23/2019
     * Server: 2GB memory, 1-core 3GHz+ CPUs ( 3792MHz )
     * Client: 2GB memory, 1-core 3GHz+ CPUs ( 3792MHz )
