@@ -74,7 +74,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 #### LSWS 5.4 vs Nginx 1.16 HTTP/2 
 
-Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/1kstatic.html`
+Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
@@ -84,7 +84,7 @@ wordpress homepage (req/s) | 36,089.90 | 3,597.00 | 10.03
 
 #### LSWS 5.4 vs Nginx 1.16 HTTPS 
 
-Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/1kstatic.html`
+Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
@@ -100,21 +100,23 @@ wordpress homepage (req/s) | 16,414.00 | 3,410.70 | 4.81
 
 #### LSWS 5.4 vs Nginx 1.16 HTTP/2 
 
-Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/1kstatic.html`
+Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
 1kstatic.html (req/s) | 212,222.00 | 33,909.20| 6.26
 1knogzip.jpg (req/s) | 203,938.00 | 45,258.70| 4.50
+wordpress homepage (req/s) | 69,421.10 | 6045.70 | 11.48
 
 #### LSWS 5.4 vs Nginx 1.16 HTTPS 
 
-Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/1kstatic.html`
+Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
 Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 ----------|------------ | -------------|------
 1kstatic.html (req/s) | 78,968.90 | 25,513.00 | 3.09
 1knogzip.jpg (req/s) | 66,455.80 | 37,813.80 | 1.75
+wordpress homepage (req/s) | 31285.80 | 6117.31 | 5.11
 
 ## Feedback
 
