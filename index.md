@@ -1,5 +1,5 @@
 ---
-title: Welcome to http2benchmark.org
+title: Truth About HTTP/2 Performance
 ---
 
 As more and more sites switch to HTTPS, and more servers add HTTP/2 support, it can be difficult to determine which server has the best performance. This site aims to settle that question.
