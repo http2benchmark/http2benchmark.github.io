@@ -72,7 +72,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
     * Client: 2GB memory , 1-core Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
     * Network Bandwidth: 1.8Gbps
 
-#### LSWS 5.4 vs Nginx 1.16 HTTP/2 
+#### HTTP/2: LSWS 5.4 vs Nginx 1.16  
 
 Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
@@ -82,7 +82,7 @@ Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 1knogzip.jpg (req/s) | 132,162.00 | 27,898.10| 4.73
 wordpress homepage (req/s) | 36,089.90 | 3,597.00 | 10.03
 
-#### LSWS 5.4 vs Nginx 1.16 HTTPS 
+#### HTTPS: LSWS 5.4 vs Nginx 1.16 
 
 Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
@@ -98,7 +98,7 @@ wordpress homepage (req/s) | 16,414.00 | 3,410.70 | 4.81
     * Client: 2GB memory, 1-core 3GHz+ CPUs ( 3792MHz )
     * Network Bandwidth: 7.7Gbps
 
-#### LSWS 5.4 vs Nginx 1.16 HTTP/2 
+#### HTTP/2: LSWS 5.4 vs Nginx 1.16 
 
 Command: `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
@@ -108,7 +108,7 @@ Test Name | LSWS 5.4    | Nginx 1.16 | Ratio
 1knogzip.jpg (req/s) | 203,938.00 | 45,258.70| 4.50
 wordpress homepage (req/s) | 69,421.10 | 6,045.70 | 11.48
 
-#### LSWS 5.4 vs Nginx 1.16 HTTPS 
+#### HTTPS: LSWS 5.4 vs Nginx 1.16 
 
 Command: `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
