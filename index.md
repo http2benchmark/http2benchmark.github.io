@@ -31,7 +31,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 *   Server configuration tunings
 *   Your benchmark results
 
-## Benchmark Setup
+## How to to run your own benchmark
 
 [You can easily run http2benchmark on your own server by following this guide.](https://http2benchmark.org/guide.html)
 
