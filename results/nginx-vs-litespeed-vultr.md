@@ -2,7 +2,7 @@
 title: Nginx vs LiteSpeed
 ---
 ##   Vultr “High Frequency Compute” 2-GB instance
-    * Date: 07/23/2019
+    * Date: July 23, 2019
     * Server: 2GB memory, 1-core 3GHz+ CPUs ( 3792MHz )
     * Client: 2GB memory, 1-core 3GHz+ CPUs ( 3792MHz )
     * Network Bandwidth: 7.7Gbps

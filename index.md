@@ -100,11 +100,11 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ## Benchmark Results
 
-###  [Apache vs Caddy vs H2o vs LiteSpeed vs Nginx in DigitalOcean 1GB droplet](https://http2benchmark.org/results/benchmark-apache-caddy-h2o-litespeed-nginx-digitalocean.html) 09/06/2019
+###  [Apache vs Caddy vs H2o vs LiteSpeed vs Nginx in DigitalOcean 1GB droplet](https://http2benchmark.org/results/benchmark-apache-caddy-h2o-litespeed-nginx-digitalocean.html) September 6, 2019
 
-###  [LiteSpeed 5.4 vs Nginx 1.16 in DigitalOcean 1GB Droplet](https://http2benchmark.org/results/nginx-vs-litespeed-digitalocean.html) 07/23/2019
+###  [LiteSpeed 5.4 vs Nginx 1.16 in DigitalOcean 1GB Droplet](https://http2benchmark.org/results/nginx-vs-litespeed-digitalocean.html) July 23, 2019
  
-###  [LiteSpeed 5.4 vs Nginx 1.16 in Vultr “High Frequency Compute” 2-GB instance](https://http2benchmark.org/results/nginx-vs-litespeed-vultr.html)  07/23/2019
+###  [LiteSpeed 5.4 vs Nginx 1.16 in Vultr “High Frequency Compute” 2-GB instance](https://http2benchmark.org/results/nginx-vs-litespeed-vultr.html)  July 23, 2019
 
 ## Feedback
 
