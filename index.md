@@ -69,16 +69,13 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ### Server software compared
 
-*   [Apache](http://httpd.apache.org/)   
-    uses W3TC cache for WordPress
-*   [Caddy](https://caddyserver.com/)
-    uses W3TC cache for WordPress
-*   [H2O](https://h2o.examp1e.net/)
-    uses W3TC cache for WordPress
+*   [Apache](http://httpd.apache.org/) with W3TC cache for WordPress
+*   [Caddy](https://caddyserver.com/) with W3TC cache for WordPress
+*   [H2O](https://h2o.examp1e.net/) with W3TC cache for WordPress
 *   [LiteSpeed Enterprise](https://www.litespeedtech.com/products/litespeed-web-server)
-    uses Litespeed Cache for WordPress
+    with Litespeed Cache for WordPress
 *   [Nginx](http://nginx.org/)
-    uses FastCGI cache for WordPress
+    with FastCGI cache for WordPress
 
 ### Server software to be added soon
 
