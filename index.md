@@ -4,6 +4,34 @@ title: Truth About HTTP/2 Performance
 
 As more and more sites switch to HTTPS, and more servers add HTTP/2 support, it can be difficult to determine which server has the best performance. This site aims to settle that question.
 
+## Benchmark result summary
+
+### Apache vs Caddy vs H2o vs LiteSpeed vs Nginx
+As of the benchmark test results conducted with Digital Ocean 1GB droplet on 09/06/2019
+#### WordPress Home Page (HTTP/2)
+All server setup uses best available WordPress cache plugin.
+
+  Server Name   | Requests/sec | Ratio | 
+----------------|-------------:|:-----:
+Apache 2.4.41   |    389.40    |  1.00X
+Caddy 0.11.4    |    441.00    |  1.13X
+H2o 2.2.6       |    721.90    |  1.85X
+LiteSpeed 5.4.1 |  29159.00    |  **74.95X**
+Nginx 1.16.1    |   3324.40    |  8.53X
+
+### WordPress Home Page (HTTP/2 vs HTTP/1.1)
+Compare HTTP/2 and HTTP/1.1 (with Keep-alive connections)
+
+  Server Name   |    HTTP/2    | HTTP/1.1   |  HTTP/2 vs HTTP/1.1   |
+----------------|-------------:|-----------:|:---------------------:
+Apache 2.4.41   |    389.40    |  476.72    |         0.81X
+Caddy 0.11.4    |    441.00    |  433.36    |         1.02X
+H2o 2.2.6       |    721.90    |  621.08    |         1.16X
+LiteSpeed 5.4.1 |  29159.00    |  14290.00  |         **2.04X**
+Nginx 1.16.1    |   3324.40    |  3201.17   |         1.04X
+
+[Benchmark Result: Apache vs Caddy vs H2o vs LiteSpeed vs Nginx in DigitalOcean 1GB droplet](https://http2benchmark.org/benchmark-apache-caddy-h2o-litespeed-nginx-digitalocean.html)
+
 ## Methodology
 
 We provide an easy-to-use script so that you may set up and run the benchmarks yourself. If you don’t believe the published results, you can verify them on your own server.
@@ -40,14 +68,14 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ### Server software compared
 
-*   [Apache 2.4](http://httpd.apache.org/)
-*   [LiteSpeed Enterprise 5.4](https://www.litespeedtech.com/products/litespeed-web-server)
-*   [Nginx 1.16](http://nginx.org/)
+*   [Apache](http://httpd.apache.org/)
+*   [Caddy](https://caddyserver.com/)
+*   [H2O](https://h2o.examp1e.net/)
+*   [LiteSpeed Enterprise](https://www.litespeedtech.com/products/litespeed-web-server)
+*   [Nginx](http://nginx.org/)
 
 ### Server software to be added soon
 
-*   [Caddy](https://caddyserver.com/)
-*   [H2O](https://h2o.examp1e.net/)
 *   [OpenLiteSpeed](https://openlitespeed.org/)
 
 ### Test clients used
