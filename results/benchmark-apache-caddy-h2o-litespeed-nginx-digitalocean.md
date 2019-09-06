@@ -9,8 +9,8 @@ title: Apache vs Caddy vs H2o vs LiteSpeed vs Nginx
 * Network Bandwidth: 1.8Gbps
 
 Test commands:
-`h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
-`wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
+* `h2load -n 100000 -c 100 -m 10 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
+* `wrk -d 5 -c 100 -H "Accept-encoding: gzip, deflate" https://<IP>/<URL>`
 
 ### Raw Results
 ```
