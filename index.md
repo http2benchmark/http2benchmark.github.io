@@ -7,10 +7,10 @@ As more and more sites switch to HTTPS, and more servers add HTTP/2 support, it 
 ## Benchmark result summary
 
 ### Apache vs Caddy vs H2o vs LiteSpeed vs Nginx
-As of the benchmark test results conducted in Digital Ocean 1GB droplets on 09/06/2019
+Benchmark test results as of September 6, 2019, conducted on Digital Ocean 1GB droplets.
 
 #### WordPress Home Page (HTTP/2)
-All server setup uses best available WordPress cache plugin.
+All server setups use best available WordPress cache plugin.
 
   Server Name   | Requests/sec | Ratio | 
 ----------------|-------------:|:-----:
