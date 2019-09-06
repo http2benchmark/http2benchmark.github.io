@@ -7,7 +7,8 @@ As more and more sites switch to HTTPS, and more servers add HTTP/2 support, it 
 ## Benchmark result summary
 
 ### Apache vs Caddy vs H2o vs LiteSpeed vs Nginx
-As of the benchmark test results conducted with Digital Ocean 1GB droplet on 09/06/2019
+As of the benchmark test results conducted in Digital Ocean 1GB droplets on 09/06/2019
+
 #### WordPress Home Page (HTTP/2)
 All server setup uses best available WordPress cache plugin.
 
@@ -27,10 +28,10 @@ Compare HTTP/2 and HTTP/1.1 (with Keep-alive connections)
 Apache 2.4.41   |    389.40    |  476.72    |         0.81X
 Caddy 0.11.4    |    441.00    |  433.36    |         1.02X
 H2o 2.2.6       |    721.90    |  621.08    |         1.16X
-LiteSpeed 5.4.1 |  29159.00    |  14290.00  |         **2.04X**
+LiteSpeed 5.4.1 |  29159.00    |  14290.00  |       **2.04X**
 Nginx 1.16.1    |   3324.40    |  3201.17   |         1.04X
 
-[Benchmark Result: Apache vs Caddy vs H2o vs LiteSpeed vs Nginx in DigitalOcean 1GB droplet](https://http2benchmark.org/benchmark-apache-caddy-h2o-litespeed-nginx-digitalocean.html)
+[Benchmark Result: Apache vs Caddy vs H2o vs LiteSpeed vs Nginx in DigitalOcean 1GB droplet](https://http2benchmark.org/results/benchmark-apache-caddy-h2o-litespeed-nginx-digitalocean.html)
 
 ## Methodology
 
@@ -68,11 +69,16 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 ### Server software compared
 
-*   [Apache](http://httpd.apache.org/)
+*   [Apache](http://httpd.apache.org/)   
+    uses W3TC cache for WordPress
 *   [Caddy](https://caddyserver.com/)
+    uses W3TC cache for WordPress
 *   [H2O](https://h2o.examp1e.net/)
+    uses W3TC cache for WordPress
 *   [LiteSpeed Enterprise](https://www.litespeedtech.com/products/litespeed-web-server)
+    uses Litespeed Cache for WordPress
 *   [Nginx](http://nginx.org/)
+    uses FastCGI cache for WordPress
 
 ### Server software to be added soon
 
@@ -92,7 +98,7 @@ Give your feedback in the [project’s Issues](https://github.com/http2benchmark
 
 *   [WordPress](https://wordpress.org/) with cache plugin: 
     *   [LSCache](https://wordpress.org/plugins/litespeed-cache/) for LiteSpeed
-    *   [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) for Apache
+    *   [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/) for Apache, Caddy and H2o
     *   FastCGI Cache for Nginx
 
 ## Benchmark Results
